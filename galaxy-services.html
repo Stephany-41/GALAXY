@@ -1,0 +1,177 @@
+<html>
+    <head>
+		<link rel="icon" type="images/png" href="images/galaxy-png.png">
+        <title>GALAXY SERVICES</title>
+        <style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: 'Poppins', sans-serif;
+				color:rgb(5, 228, 5);
+			}
+
+			.class-2 {
+				padding: 4rem;
+                background-image: url("images/elevated-view.jpg");
+				background-size: 100%;
+			}
+
+			h1 {
+				font-size: 3.375rem;
+				line-height: 1.33;
+				letter-spacing: -2px;
+				margin: .5rem 0 3rem;
+				text-shadow: 3px 3px 5px;
+				
+			}
+
+			h2 {
+				font-size: 1.5rem;
+				line-height: 1.5;
+				font-weight: 400;
+				color: rgb(253, 2, 2);
+				margin-bottom: 3rem;
+			}
+
+			nav ul {
+				list-style: none;
+				padding: 0;
+			}
+
+			a {
+				color:rgb(19, 42, 59);
+				text-decoration: none;
+				font-weight: 500;
+			}
+
+			.btn {
+				display: inline-block;
+				color: white;
+				background-color: #2C86D9;
+				border-radius: 100px;
+				padding: 1rem 2rem;
+				display: inline-flex;
+				gap: .5rem;
+				align-items: center;
+			}
+
+			.btn.outline {
+				background-color: transparent;
+				border: 2px solid #2C86D9;
+				color: #2C86D9;
+			}
+
+			header {
+				margin-bottom: 6rem;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				font-size: 2rem;
+			}
+			header img {
+				border-radius: 2rem;
+			}
+			footer {
+				align-items: center;
+				font-size: small;
+				margin-top: 2rem;
+			}
+
+			nav ul {
+				display: flex;
+				gap: 2rem;
+				text-shadow: 3px 3px 5px;
+			}
+            a {
+				color:rgb(223, 17, 113);
+				text-decoration: none;
+				font-weight: 800;
+			}
+			a:hover {
+				color: rgb(7, 252, 27);
+			}
+			.class-3 {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				justify-items: center;
+				align-items: center;
+				gap: 8rem;
+			}
+
+			.class-3 img {
+				max-width: 100%;
+				border-radius: 2rem;
+			}
+			.btn mobile{
+				display: none;
+			}
+			@media screen and (max-width: 1200px) {
+				header nav,
+				header .btn {
+					display: none;
+				}
+				.btn-mobile{
+					display: inline-block;
+				}
+				.class-3 {
+					grid-template-columns: 100%;
+					gap: 4rem;
+				}
+				#class-3-illustration {
+					order: -1;
+				}
+				header {
+					margin-bottom: 4rem;
+				}
+				h1,
+				h2 {
+					margin-bottom: 2rem;
+				}
+			}
+		</style>
+	</head>
+	<body class="class-1">
+		<section class="class-2">
+			
+
+			<header class="main-header">
+				<a href=""><img src="images/galaxy-jpeg.jpg" width=100px height=100px alt="Galaxy Logo"></a>
+				<div class="card">
+					<h1>GALAXY SERVICES</h1>
+				</div>
+
+				<a href="" class="btn-mobile"><img src="images/menu-dots.svg" alt="Menu dots"></a>
+			</header>
+
+			<section class="class-3">
+
+				<img src="images/digital-table.jpg" id="class-3-illustration" alt="digital-table">
+
+				<div class="content">
+					
+					<nav>
+						<ul>
+							<li><a href="galaxy-home.html"> SAMPLE WEBSITES</a></li>
+							<li><a href="galaxy-3dlogos.html">3D LOGOS</a></li>
+							<li><a href="galaxy-bcards.html">BUSINESS CARDS</a></li>
+							<li><a href="galaxy-flyers.html">FLYERS</a></li>
+							<li><a href="galaxy-banners.html">BANNERS</a></li>
+							<li><a href="galaxy-logos.html">LOGOS</a></li>
+						</ul>
+					</nav>
+
+					<a href="galaxy-home.html" class="btn">HOME PAGE <img src="images/arrow-right-white.svg" alt="Home"></a>
+				</div>	
+			</section>
+            <footer>
+				Author: Stephany Akinyi <br>
+				&copy; copyright Reserved <br>
+				<a href="mailto:akinyistephany41@gmail.com">akinyistephany41@gmail.com</a>
+			</footer>
+			
+		</section>
+
+    </body>
+</html>
