@@ -1,2 +1,0 @@
-# GALAXY
-GALAXY Website
